@@ -47,10 +47,14 @@ Figure 02  Encoder 8 * 3
 5.Verify output using the truth table.
 
 **PROGRAM**
-
-<img width="623" height="168" alt="image" src="https://github.com/user-attachments/assets/6e0209b6-7d35-4308-99a1-6ac87f4f0d93" />
-
-
+```module exp5(din,a,b,c);
+input [0:7] din;
+output a,b,c;
+assign a=(din[4]| din[5]| din[6 ]| din[7]);
+assign b=(din[2]| din[3]| din[6]| din[7]);
+assign c=(din[1]| din[3]| din[5 ]| din[7]);
+endmodule
+```
 Developed by:Yuuvasri R
 RegisterNumber:25003422
 
