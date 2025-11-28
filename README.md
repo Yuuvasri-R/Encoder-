@@ -47,7 +47,8 @@ Figure 02  Encoder 8 * 3
 5.Verify output using the truth table.
 
 **PROGRAM**
-```module exp5(din,a,b,c);
+```
+module encoder(din,a,b,c);
 input [0:7] din;
 output a,b,c;
 assign a=(din[4]| din[5]| din[6 ]| din[7]);
@@ -60,14 +61,14 @@ RegisterNumber:25003422
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-<img width="882" height="717" alt="image" src="https://github.com/user-attachments/assets/ab53e9c7-1cd1-4d1d-8b28-32e6590e6936" />
+<img width="1920" height="825" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/88f151aa-97bc-4e18-a7d2-6f6e3175bcd5" />
 
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-<img width="1913" height="596" alt="image" src="https://github.com/user-attachments/assets/6e69c503-d1a1-4ce6-8d41-4d945dfa8678" />
+<img width="1920" height="798" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/53bdd8cb-ca67-4184-9b3c-a4293b83cd8c" />
 
 **RESULTS**
 
-implementing Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables executed succesfully.
+Implementing Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables executed successfully.
 
 
